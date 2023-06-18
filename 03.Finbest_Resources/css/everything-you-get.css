@@ -1,0 +1,46 @@
+
+.everything-you-get {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.everything-you-get img {
+    border: 3px dotted gray;
+}
+
+.everything-you-get .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.everything-you-get .text {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+}
+
+.everything-you-get .text h2 {
+    font-size: 3em;
+    width: 20ch;
+    font-weight: 600;
+    padding-bottom: 0.5em;
+}
+
+.everything-you-get .text h4 {
+    font-size: 1.3em;
+    width: 20ch;
+    font-weight: 600;
+    width: 100%;
+    padding-bottom: 16px;
+}
+
+.everything-you-get .text p {
+    font-size: 20px;
+    width: 45ch;
+    padding-bottom: 3em;
+}
+
+.everything-you-get .text-wrapper .text .explore{
+    padding-bottom: 4px;
+}

@@ -1,0 +1,27 @@
+.stats {
+    padding: 4em 8em;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.stats ul {
+    display: flex;
+    flex-direction: column;
+    padding: 18px 12px;
+}
+
+.stats ul h3 {
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+
+.stats ul p {
+    width: 30ch;
+    padding-bottom: 2em;
+}
+
+.vl {
+    border-left: 2px solid #f3f3f3;
+    height: auto;
+}

@@ -1,0 +1,30 @@
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 6em 20px;
+}
+
+.header h1 {
+    font-size: 3.5em;
+}
+
+.header p {
+    font-weight: 500;
+    padding: 1.5em 0;
+}
+
+.downloads {
+    display: flex;
+    gap: 12px;
+}
+
+.downloads li {
+    background-color: black;
+    color: white;
+    padding: 24px 24px;
+    border-radius: 12px;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
